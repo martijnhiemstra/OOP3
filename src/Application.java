@@ -29,22 +29,11 @@ public class Application {
 		int antwoord = r.optellen(8, 17);
 		System.out.println("Antwoord is " + antwoord);
 		
-		
-		
 		Animal a = new Animal();
 		
 		int legs = a.getLegs();
 		System.out.println("Aantal poten = " + legs);
 		a.setLegs(8);
-		
-		Animal b = new Animal("Harry");
-		Animal c = new Animal(2, "Peter");
-		
-		
-		
-		System.out.println("Vul een naam in");
-		Scanner scanner = new Scanner(System.in);
-		String antwoord1 = scanner.next();
 		
 	}
 
