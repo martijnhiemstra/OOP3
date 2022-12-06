@@ -20,10 +20,8 @@ public class Application {
 		// String 	-> ""
 		// int 		-> 12  34567 23
 		// boolean 	-> true   false
-		
 		// Vul de andere properties
 		// Maak een 2de person aan
-		
 		
 		Rekenmachine r = new Rekenmachine();
 		int antwoord = r.optellen(8, 17);
